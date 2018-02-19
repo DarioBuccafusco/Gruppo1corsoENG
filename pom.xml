@@ -13,7 +13,7 @@
 		<module>projectwork-serviceinterface</module>
 		<module>projectwork-eis</module>
 		<module>projectwork-eis-interface</module>
-	</modules><modules>
+	
     <module>projectwork-model</module>
   </modules>
 </project>
