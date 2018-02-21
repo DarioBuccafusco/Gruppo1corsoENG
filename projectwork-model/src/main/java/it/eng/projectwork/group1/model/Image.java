@@ -1,4 +1,4 @@
-package it.eng.unipa.projectwork.model;
+package it.eng.projectwork.group1.model;
 
 import javax.persistence.Basic;
 import javax.persistence.Column;
@@ -13,7 +13,7 @@ import javax.persistence.Table;
 
 @Table
 @Entity
-public class Image extends AEntity<Long>{
+public class Image extends AbstractEntity<Long>{
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="IMAGE_ID_SEQ") 

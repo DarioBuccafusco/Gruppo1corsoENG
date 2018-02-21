@@ -1,6 +1,6 @@
-package it.eng.unipa.projectwork.model.state;
+package it.eng.projectwork.group1.model.state;
 
-import it.eng.unipa.projectwork.model.Auction;
+import it.eng.projectwork.group1.model.Auction;
 
 public enum STATE {
 	PENDING {

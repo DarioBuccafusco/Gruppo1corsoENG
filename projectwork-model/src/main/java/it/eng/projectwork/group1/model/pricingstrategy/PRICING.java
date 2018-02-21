@@ -1,8 +1,8 @@
-package it.eng.unipa.projectwork.model.pricingstrategy;
+package it.eng.projectwork.group1.model.pricingstrategy;
 
 import java.util.List;
 
-import it.eng.unipa.projectwork.model.Bid;
+import it.eng.projectwork.group1.model.Bid;
 
 public enum PRICING {
 	UPWARDS{

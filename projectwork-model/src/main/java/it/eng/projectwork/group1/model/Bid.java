@@ -16,7 +16,7 @@ import javax.persistence.TemporalType;
 
 @Entity
 @Table
-public class Bid extends AEntity<Long>{
+public class Bid extends AbstractEntity<Long>{
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="BID_ID_SEQ") 

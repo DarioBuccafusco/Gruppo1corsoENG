@@ -1,4 +1,4 @@
-package it.eng.unipa.projectwork.model.exception;
+package it.eng.projectwork.group1.model.exception;
 
 public class AuctionRangeDateNotValidException extends RuntimeException {
 	
