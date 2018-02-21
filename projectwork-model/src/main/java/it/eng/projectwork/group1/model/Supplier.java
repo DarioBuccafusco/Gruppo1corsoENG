@@ -7,14 +7,12 @@ import javax.persistence.Table;
 public class Supplier extends User {	//Il comando extends estende la classe User con nuove funzionalità legate al venditore
 	private String tipologiaVenditore; //Pubblico, Privato
  
-	public Supplier(){}
- 
 	public String getInfo() {
-		return info;
+		return tipologiaVenditore;
 	}
  
- public void setInfo(String info) {
-	 this.info = info;
+ public void setInfo(String dato) {
+	 this.tipologiaVenditore = dato;
  	}
  
  @Override

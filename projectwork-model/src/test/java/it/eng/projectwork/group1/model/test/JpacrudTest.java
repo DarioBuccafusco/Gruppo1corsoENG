@@ -13,14 +13,15 @@ public class JpacrudTest extends JPAHibernateTest {
 	
 	@Test
 	public void test1() {
-		em.getTransaction().begin();	//Entity Manager, inizializza il contenitore, inserendo un elemento
+		em.getTransaction().begin();	//Entity Manager, avvia la transazione ed inizializza il contenitore, inserendo un elemento
 		
 		
 		User u = new User();
 		u.setNome("giancarlo");
 		u.setCognome("compagno");
-		u.setUsername("giacompa");
+		//u.setUsername("giacompa");
 		u.setEmail("giancarlo.compagno@eng.it");
+		
 		
 		em.persist(u);
 		
