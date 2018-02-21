@@ -15,4 +15,3 @@ public abstract PK getOid();		//prototipo: varia in base alla classe che lo invo
   return "[getOid()=" + getOid() + "]";	//0id chiave primaria che distingue le istanze di ogni oggetto. 
  } 
 }
-s
