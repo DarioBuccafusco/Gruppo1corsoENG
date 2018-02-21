@@ -73,9 +73,5 @@ public class Product extends AbstractEntity<Long> {
 	@Override
 	public String toString() {
 		return "Supplier [getOid()=" + getOid() + ", getDescription()=" + getDescription() + super.toString() + "]";
-	}
-	
-	
-	
-	
+	}	
 }
