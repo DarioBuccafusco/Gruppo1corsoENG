@@ -10,6 +10,8 @@
 		<module>projectwork-eis</module>
 		<module>projectwork-eis-interface</module>
 		<module>projectwork-ear</module>
+		<module>projectwork-service-interface</module>
+		<module>projectwork-service</module>
 	</modules>
   
 <properties>
