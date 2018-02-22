@@ -3,7 +3,7 @@ import java.io.Serializable;
 import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
-public abstract class AbstractEntity <PK extends Serializable> { //Il tipo PK diventa serializable 
+public abstract class AbstractEntity <PK extends Serializable> implements Serializable { //Il tipo PK diventa serializable 
 	public abstract PK getOid();
 
 	@Override
