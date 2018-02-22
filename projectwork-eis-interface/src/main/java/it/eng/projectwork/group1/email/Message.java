@@ -2,7 +2,7 @@ package it.eng.projectwork.group1.email;
 
 public class Message {
 	public static enum TYPE{TEXT,HTML}
-	private String oggetto;
+	private String oggetto; //final rende non modificabili gli attributi dopo l'inizializzazione
 	private String body;
 	private TYPE type;
 	
