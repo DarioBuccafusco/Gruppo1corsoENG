@@ -19,7 +19,7 @@ public class JpacrudTest extends JPAHibernateTest {
 		User u = new User();
 		u.setNome("giancarlo");
 		u.setCognome("compagno");
-		//u.setUsername("giacompa");
+		u.setUsername("giacompa");
 		u.setEmail("giancarlo.compagno@eng.it");
 		
 		

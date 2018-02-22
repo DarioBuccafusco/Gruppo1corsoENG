@@ -36,8 +36,7 @@ import it.eng.projectwork.group1.query.QUERY;
 	    @NamedQuery(name = QUERY.AUCTION.GET_ALL.NAME, query = QUERY.AUCTION.GET_ALL.QUERY),
 	    @NamedQuery(name = QUERY.AUCTION.GET_ACTIVE.NAME, query = QUERY.AUCTION.GET_ACTIVE.QUERY),
 	    @NamedQuery(name = QUERY.AUCTION.GET_FROM_PRODUCT.NAME, query = QUERY.AUCTION.GET_FROM_PRODUCT.QUERY),
-	    @NamedQuery(name = QUERY.AUCTION.GET_FROM_SUPPLIER.NAME, query = QUERY.AUCTION.GET_FROM_SUPPLIER.QUERY)
-	    
+	    @NamedQuery(name = QUERY.AUCTION.GET_FROM_SUPPLIER.NAME, query = QUERY.AUCTION.GET_FROM_SUPPLIER.QUERY)    
 	})
 public class Auction extends AbstractEntity<Long>{
 	

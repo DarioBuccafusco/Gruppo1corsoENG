@@ -21,9 +21,10 @@ public class User extends AbstractEntity<String>{
 	private Address address;
 	
 	@Transient //utilizziamo Trancient per non duplicare il campo Username nella tabella
+	@Override
 	public String getOid() {
 		return getUsername();
-	};
+	}
 		
 	public String getUsername() {
 		return username;
