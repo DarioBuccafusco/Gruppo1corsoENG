@@ -33,7 +33,5 @@ public interface QUERY {
 			}
 		}
 		
-	}
-	
-	
+	}	
 }
